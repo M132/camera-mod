@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--  Text for undo toast message. Only modify if the string is too long to be displayed -->
+    <string name="filtershow_undo_toast">@string/filtershow_undo</string>
+    <!--  Text for redo toast message. Only modify if the string is too long to be displayed -->
+    <string name="filtershow_redo_toast">@string/filtershow_redo</string>
+    <!-- More Settings screen, storage title -->
+    <string name="pref_camera_storage_title">Pamięć</string>
+
+    <!-- Settings screen, dialog choice for 20.7 megapikseli picture size [CHAR LIMIT=15] -->
+    <string name="pref_camera_picturesize_entry_20_7mp">20.7M pikseli</string>
+    <!-- Settings screen, dialog choice for 18 megapikseli picture size [CHAR LIMIT=15] -->
+    <string name="pref_camera_picturesize_entry_18mp">18M pikseli</string>
+    <!-- Settings screen, dialog choice for 12.8 megapikseli picture size [CHAR LIMIT=15] -->
+    <string name="pref_camera_picturesize_entry_12_8mp">12.8M pikseli</string>
+    <!-- Settings screen, dialog choice for 12.7 megapikseli picture size [CHAR LIMIT=15] -->
+    <string name="pref_camera_picturesize_entry_12_7mp">12.7M pikseli</string>
+    <!-- Settings screen, dialog choice for 12 megapikseli picture size [CHAR LIMIT=15] -->
+    <string name="pref_camera_picturesize_entry_12mp">12M pikseli (4:3)</string>
+    <!-- Settings screen, dialog choice for 11.5 megapikseli picture size [CHAR LIMIT=15] -->
+    <string name="pref_camera_picturesize_entry_11_5mp">11.5M pikseli</string>
+    <!-- Settings screen, dialog choice for 10.4 megapikseli picture size [CHAR LIMIT=15] -->
+    <string name="pref_camera_picturesize_entry_10_4mp">10.4M pikseli</string>
+    <!-- Settings screen, dialog choice for 9 megapikseli picture size [CHAR LIMIT=15] -->
+    <string name="pref_camera_picturesize_entry_9mp">9M pikseli</string>
+    <!-- Settings screen, dialog choice for 8.2 megapikseli picture size [CHAR LIMIT=15] -->
+    <string name="pref_camera_picturesize_entry_8_2mp">8.2M pikseli</string>
+    <!-- Settings screen, dialog choice for 7.7 megapikseli picture size [CHAR LIMIT=15] -->
+    <string name="pref_camera_picturesize_entry_7_7mp">7.7M pikseli (4:3)</string>
+    <!-- Settings screen, dialog choice for 6.4 megapikseli picture size [CHAR LIMIT=15] -->
+    <string name="pref_camera_picturesize_entry_6_4mp">6.4M pikseli</string>
+    <!-- Settings screen, dialog choice for 6 megapikseli picture size [CHAR LIMIT=15] -->
+    <string name="pref_camera_picturesize_entry_6mp">6M pikseli</string>
+    <!-- Settings screen, dialog choice for 4.5 megapikseli picture size [CHAR LIMIT=15] -->
+    <string name="pref_camera_picturesize_entry_4_5mp">4.5M pikseli</string>
+    <!-- Settings screen, dialog choice for 3.7 megapikseli picture size [CHAR LIMIT=15] -->
+    <string name="pref_camera_picturesize_entry_3_7mp">3.7M pikseli</string>
+    <!-- Settings screen, dialog choice for 2.5 megapikseli picture size [CHAR LIMIT=15] -->
+    <string name="pref_camera_picturesize_entry_2_5mp">2.5M pikseli</string>
+    <!-- Settings screen, dialog choice for 2.1 megapikseli picture size [CHAR LIMIT=15] -->
+    <string name="pref_camera_picturesize_entry_2_1mp">2.1M pikseli</string>
+    <!-- Settings screen, dialog choice for 1.9 megapikseli picture size [CHAR LIMIT=15] -->
+    <string name="pref_camera_picturesize_entry_1_9mp">1.9M pikseli</string>
+    <!-- Settings screen, dialog choice for 1.5 megapikseli picture size [CHAR LIMIT=15] -->
+    <string name="pref_camera_picturesize_entry_1_5mp">1.5M pikseli</string>
+    <!-- Settings screen, dialog choice for WXGA picture size [CHAR LIMIT=15] -->
+    <string name="pref_camera_picturesize_entry_wxga">WXGA</string>
+    <!-- Settings screen, dialog choice for XGA picture size [CHAR LIMIT=15] -->
+    <string name="pref_camera_picturesize_entry_xga">XGA</string>
+    <!-- Settings screen, dialog choice for SVGA picture size [CHAR LIMIT=15] -->
+    <string name="pref_camera_picturesize_entry_svga">SVGA</string>
+    <!-- Settings screen, dialog choice for WVGA picture size [CHAR LIMIT=15] -->
+    <string name="pref_camera_picturesize_entry_wvga">WVGA</string>
+    <!-- Settings screen, dialog choice for WQVGA picture size [CHAR LIMIT=15] -->
+    <string name="pref_camera_picturesize_entry_wqvga">WQVGA</string>
+
+    <!-- The label for the bass boost knob of the audio effects dialog. -->
+    <string name="bass_boost_strength">Podbicie basów</string>
+
+    <!-- The label for the 3d effect knob of the audio effects dialog. -->
+    <string name="virtualizer_strength">Efekt 3D</string>
+
+    <!-- The label for the audio effects menu. -->
+    <string name="audio_effects">Efekty dźwiękowe</string>
+
+    <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
+    <string name="headset_plug">Podłącz słuchawki dla uzyskania tych efektów.</string>
+
+    <!-- The tips of trimming video -->
+    <string name="fail_trim">Ten plik wideo nie może zostać przycięty</string>
+    <string name="can_not_trim">Tylko pliki MP4 mogą być przycinane</string>
+
+    <!-- HFR video size -->
+    <string name="pref_video_quality_entry_hfr">WVGA Wysoka szybkość klatek (HFR)</string>
+
+    <!-- Settings screen, focus mode -->
+    <string name="pref_camera_focusmode_entry_continuouspicture">Ciągły (zdjęcie)</string>
+    <string name="pref_camera_focusmode_entry_extended">Rozszerzony</string>
+    <string name="pref_camera_focusmode_entry_facedetect">Wykrywanie twarzy</string>
+    <string name="pref_camera_focusmode_entry_facepriority">Priorytet twarzy</string>
+    <string name="pref_camera_focusmode_entry_fixed">Stały</string>
+    <string name="pref_camera_focusmode_entry_portrait">Pionowy</string>
+    <string name="pref_camera_focusmode_entry_hyperfocal">Hyperfocal</string>
+
+    <!-- More Settings screen, power button title -->
+    <string name="pref_camera_power_shutter_title">Spust przyciskiem zasilania</string>
+
+    <!-- Settings screen, ISO dialog choices -->
+    <string name="pref_camera_iso_entry_auto">Auto</string>
+    <string name="pref_camera_iso_entry_isodeblur">Auto (HJR)</string>
+    <string name="pref_camera_iso_entry_isosports">Sport</string>
+    <string name="pref_camera_iso_entry_isonight">Noc</string>
+    <string name="pref_camera_iso_entry_isomovie">Film</string>
+
+    <!-- Settings screen, JPEG Quality -->
+    <string name="pref_camera_jpeg_title">Jakość JPEG</string>
+    <string name="pref_video_jpeg_title">Jakość kodowania</string>
+
+    <!-- Settings screen, JPEG dialog choices -->
+    <string name="pref_camera_jpeg_entry_super">Najwyższa</string>
+    <string name="pref_camera_jpeg_entry_high">Wysoka</string>
+    <string name="pref_camera_jpeg_entry_medium">Średnia</string>
+    <string name="pref_camera_jpeg_entry_low">Niska</string>
+
+    <!-- Settings screen, Frame rate -->
+    <string name="pref_video_fps">Szybkość klatek</string>
+
+    <!-- Settings screen, Select Color effect title -->
+    <string name="pref_camera_coloreffect_title">Efekt koloru</string>
+
+    <!-- Settings screen, Color effect dialog choices -->
+    <string name="pref_camera_coloreffect_entry_none">Brak</string>
+    <string name="pref_camera_coloreffect_entry_mono">Monochromatyczny</string>
+    <string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
+    <string name="pref_camera_coloreffect_entry_negative">Negatyw</string>
+    <string name="pref_camera_coloreffect_entry_solarize">Solaryzacja</string>
+    <string name="pref_camera_coloreffect_entry_posterize">Posteryzacja</string>
+    <string name="pref_camera_coloreffect_entry_aqua">Woda</string>
+    <string name="pref_camera_coloreffect_entry_emboss">Wyryty</string>
+    <string name="pref_camera_coloreffect_entry_sketch">Szkic</string>
+    <string name="pref_camera_coloreffect_entry_neon">Neon</string>
+    <string name="pref_camera_coloreffect_entry_pastel">Pastele</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">Mozaika</string>
+    <string name="pref_camera_coloreffect_entry_redtint">Czerwony odcień</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">Niebieski odcień</string>
+    <string name="pref_camera_coloreffect_entry_greentint">Zielony odcień</string>
+    <string name="pref_camera_coloreffect_entry_washed">Wyprany</string>
+    <string name="pref_camera_coloreffect_entry_vintage_warm">Wineta ciepła</string>
+    <string name="pref_camera_coloreffect_entry_vintage_cold">Wineta zimna</string>
+    <string name="pref_camera_coloreffect_entry_point_blue">Podkreśl niebieski</string>
+    <string name="pref_camera_coloreffect_entry_point_green">Podkreśl zielony</string>
+    <string name="pref_camera_coloreffect_entry_point_red_yellow">Podkreśl czerwono-zółty</string>
+    <string name="pref_camera_coloreffect_entry_cartoonize">Kartonizuj</string>
+
+    <!-- Settings screen, Burst mode title -->
+    <string name="pref_camera_burst_title">Tryb serii</string>
+
+    <!-- Settings screen, Burst mode entries -->
+    <string name="pref_camera_burst_entry_off">Wyłącz</string>
+    <string name="pref_camera_burst_entry_5">5 zdjęć</string>
+    <string name="pref_camera_burst_entry_10">10 zdjęć</string>
+    <string name="pref_camera_burst_entry_15">15 zdjęć</string>
+    <string name="pref_camera_burst_entry_20">20 zdjęć</string>
+
+    <!-- Touch-to-focus duration settings -->
+    <string name="pref_camera_focustime_title">Długość dotykowego fokusu</string>
+    <string name="pref_camera_focustime_summary">Wybierz długość dotykowego fokusu</string>
+
+    <!-- Settings screen, Timer mode entries -->
+    <string name="pref_camera_focustime_entry_5">5s</string>
+    <string name="pref_camera_focustime_entry_10">10s</string>
+    <string name="pref_camera_focustime_entry_15">15s</string>
+    <string name="pref_camera_focustime_entry_20">20s</string>
+    <string name="pref_camera_focustime_entry_30">30s</string>
+    <string name="pref_camera_focustime_entry_infinite">Nieskończony</string>
+
+    <!-- Red eye flash mode title -->
+    <string name="pref_camera_flashmode_entry_redeye">Czerwone oczy</string>
+    <string name="pref_camera_flashmode_label_redeye">CZERWONE OCZY</string>
+
+    <!-- Beauty mode -->
+    <string name="pref_camera_beauty_mode_title">Piekny tryb</string>
+
+    <!-- Slow shutter modes -->
+    <string name="pref_camera_slow_shutter_title">Wolna migawka</string>
+    <string name="pref_camera_slow_shutter_entry_off">Wyłącz</string>
+    <string name="pref_camera_slow_shutter_entry_auto">Auto</string>
+    <string name="pref_camera_slow_shutter_entry_half_second">1/2 sekundy</string>
+    <string name="pref_camera_slow_shutter_entry_1s">1 sekunda</string>
+    <string name="pref_camera_slow_shutter_entry_2s">2 sekundy</string>
+    <string name="pref_camera_slow_shutter_entry_4s">4 sekundy</string>
+    <string name="pref_camera_slow_shutter_entry_8s">8 sekund</string>
+
+    <string name="camera_menu_enhance_label">ULEPSZ</string>
+    <string name="camera_menu_slow_shutter_label">WOLNA MIGAWKA</string>
+    <string name="camera_menu_beauty_mode_label">UPIĘKSZ</string>
+    <string name="camera_menu_colorize_label">KOLORYZUJ</string>
+    <string name="camera_menu_effects_label">EFEKTY</string>
+    <string name="camera_menu_asd_label">INTELIGENTNA SCENA</string>
+
+    <string name="pref_loading_default">Wczytywanie...</string>
+    
+    <string name="pref_video_resolution_title">Rozdzielczość</string>
+
+    <string name="pref_video_vcodec_title">Kodek wideo</string>
+
+    <string name="pref_video_container_title">Format pliku</string>
+
+    <string name="pref_video_acodec_title">Kodek audio</string>
+
+    <string name="pref_video_asamplerate_title">Częst. próbkowania</string>
+
+    <string name="pref_video_achannels_title">Kanały audio</string>
+    
+    <string name="pref_video_vbitrate_title">Bitrate wideo</string>
+    
+    <string name="pref_video_abitrate_title">Bitrate audio</string>
+
+    <string name="pref_default_text">(domyślny)</string>
+    <string name="pref_force_text">Wymuś</string>
+
+    <string name="pref_default_container">MPEG-4 (domyślny)</string>
+    <string name="pref_default_vcodec">H.264 (domyślny)</string>
+    <string name="pref_default_acodec">AAC-LC (domyślny)</string>
+    <string name="pref_default_samplerate">48kHz (domyślny)</string>
+    <string name="pref_default_achannels">Stereo (domyślny)</string>
+</resources>
