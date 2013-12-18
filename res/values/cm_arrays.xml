@@ -255,7 +255,7 @@
 
     <string-array name="pref_video_vcodec_entries">
         <item>H.263</item>
-        <item>H.264 @string/pref_default_text</item>
+        <item>@string/pref_default_vcodec</item>
         <item>MPEG-4 Simple Profile</item>
     </string-array>
 
@@ -267,7 +267,7 @@
 
     <string-array name="pref_video_container_entries">
         <item>3GPP</item>
-        <item>MPEG-4 @string/pref_default_text</item>
+        <item>@string/pref_default_container</item>
         <item>AMR Narrowband</item>
         <item>AMR Wideband</item>
         <item>AAC ADTS</item>
@@ -284,7 +284,7 @@
     <string-array name="pref_video_acodec_entries">
         <item>AMR Narrowband</item>
         <item>AMR Wideband</item>
-        <item>AAC-LC @string/pref_default_text</item>
+        <item>@string/pref_default_acodec</item>
         <item>HE-AAC</item>
         <item>AAC-ELD</item>
     </string-array>
@@ -319,7 +319,7 @@
 
     <string-array name="pref_video_achannels_entries">
         <item>Mono</item>
-        <item>Stereo @string/pref_default_text</item>
+        <item>@string/pref_default_achannels</item>
     </string-array>
 
     <string-array name="pref_video_achannels_entryvalues" translatable="false">
