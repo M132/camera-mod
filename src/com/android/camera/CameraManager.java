@@ -266,7 +266,11 @@ public class CameraManager {
                     case ENABLE_SAMSUNG_ZSL_MODE:
                         // I don't know the significance of 1508, it was discovered
                         // by reading logs and reverse engineering.
-                        mCamera.sendRawCommand(1508, 0, 0);
+                        try {
+                            mCamera.sendRawCommand(1508, 0, 0);
+                        } catch (Exception ex) {
+                            Log.e(TAG, "Fail to enable Samsung ZSL mode (are you using Cyanogenmod?)";
+                        }
                         break;
 
                     default:

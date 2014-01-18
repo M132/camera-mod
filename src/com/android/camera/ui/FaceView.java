@@ -37,7 +37,7 @@ import com.android.camera.CameraScreenNail;
 import com.android.camera.Util;
 import com.android.gallery3d.R;
 import com.android.gallery3d.common.ApiHelper;
-import org.codeaurora.camera.QCFace;
+import com.android.camera.codeaurora.QCFace;
 
 @TargetApi(ApiHelper.VERSION_CODES.ICE_CREAM_SANDWICH)
 public class FaceView extends View
