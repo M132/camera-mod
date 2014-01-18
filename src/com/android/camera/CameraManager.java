@@ -268,8 +268,8 @@ public class CameraManager {
                         // by reading logs and reverse engineering.
                         try {
                             mCamera.sendRawCommand(1508, 0, 0);
-                        } catch (Exception ex) {
-                            Log.e(TAG, "Fail to enable Samsung ZSL mode (are you using Cyanogenmod?)";
+                        } catch (Throwable ex) {
+                            Log.e(TAG, "Fail to enable Samsung ZSL mode (are you using Cyanogenmod?)");
                         }
                         break;
 
